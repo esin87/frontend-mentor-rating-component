@@ -61,9 +61,10 @@ body {
     background-color: var(--very-dark-blue);
 }
 
+
 .component { 
     background-color: var(--dark-blue);
-    max-width: 375px;
+    max-width: 400px;
     padding: 2rem;
     border-radius: 20px;
 }
@@ -77,8 +78,11 @@ input[type="radio"] {
     background-color: var(--orange);
     color: var(--white);
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     width: 100%;
+    letter-spacing: 0.2rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
 }
 
 .ratings-container {
@@ -91,4 +95,31 @@ input[type="radio"] {
     height: 45px;
     width: 45px;
     background-color: rgba(255,255,255, 0.05);
+}
+
+.logo-wrapper {
+    margin-bottom: 2rem;
+}
+
+.text-content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ratings-container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+h1 { 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    .component {
+        max-width: 375px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }
