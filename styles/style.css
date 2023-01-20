@@ -9,12 +9,60 @@
 }
 
 /* Typography */
-body p {
+html {
     font-size: 15px;
 }
 
-html, body { 
+html, body, .btn { 
     font-family: 'Overpass', sans-serif;
 }
 
-/* - Mobile: 375px - Desktop: 1440px */
+h1 {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+p, .ratings-container span {
+    color: var(--medium-grey);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Layout */
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Constrict and center the page content */
+.container { 
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Styles */
+
+body { 
+    background-color: var(--very-dark-blue);
+}
+
+.component { 
+    background-color: var(--dark-blue);
+}
+
+input[type="radio"] {
+    opacity: 0;
+}
+
+.btn {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+}
