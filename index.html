@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>Frontend Mentor | Interactive rating component</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="component">
+				<div class="logo-wrapper">
+					<img src="images/icon-star.svg" alt="Orange star" class="logo" />
+				</div>
+				<div class="text-content">
+					<h1>How did we do?</h1>
+					<p>
+						Please let us know how we did with your support request. All
+						feedback is appreciated to help us improve our offering!
+					</p>
+				</div>
+				<form>
+					<div class="ratings-container">
+						<label for="1">
+							<input type="radio" name="rating" id="1" value="1" />
+							<span>1</span>
+						</label>
+						<label for="2">
+							<input type="radio" name="rating" id="2" value="2" />
+							<span>2</span>
+						</label>
+						<label for="3">
+							<input type="radio" name="rating" id="3" value="3" />
+							<span>3</span>
+						</label>
+						<label for="4">
+							<input type="radio" name="rating" id="4" value="4" />
+							<span>4</span>
+						</label>
+						<label for="5">
+							<input type="radio" name="rating" id="5" value="5" />
+							<span>5</span>
+						</label>
+					</div>
+					<button type="submit" class="btn uppercase">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
