@@ -111,6 +111,11 @@ input[type="radio"]:hover + span, input[type="radio"] + span:hover {
     color: var(--white);
 }
 
+input[type="radio"]:checked + span {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
 input[type="radio"], input[type="radio"] + span, label, .submit-btn {
     transition: all 0.3s;
 }
