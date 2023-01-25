@@ -34,6 +34,10 @@ p {
     text-transform: uppercase;
 }
 
+.thankyou-component {
+    text-align: center;
+}
+
 /* Layout */
 * {
     box-sizing: border-box;
@@ -132,16 +136,25 @@ input[type="radio"], input[type="radio"] + span, label, .submit-btn {
     background-color: rgba(255,255,255, 0.05);
 }
 
+
+.rating-info p { 
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--orange);
+    display: inline-block;
+    padding: 0.25rem 1.25rem;
+}
+
 .logo-wrapper {
     margin-bottom: 2rem;
 }
 
-.text-content{
+.text-content {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.ratings-container {
+.ratings-container, .rating-info {
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
