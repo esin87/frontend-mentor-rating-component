@@ -69,7 +69,8 @@ body {
     border-radius: 20px;
 }
 
-input[type="radio"] {
+input[type="radio"]{
+    cursor: pointer;
     opacity: 0;
     position: absolute;
 }
@@ -85,8 +86,33 @@ input[type="radio"] {
     padding-bottom: 0.9rem;
 }
 
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+}
+
 .ratings-container {
     justify-content: space-between;
+}
+
+input[type="radio"] + span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+input[type="radio"]:hover + span, input[type="radio"] + span:hover {
+    cursor: pointer;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+input[type="radio"], input[type="radio"] + span, label, .submit-btn {
+    transition: all 0.3s;
 }
 
 .circle {
