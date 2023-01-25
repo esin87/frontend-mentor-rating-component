@@ -48,6 +48,10 @@ p {
     align-items: center;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Constrict and center the page content */
 .container { 
     max-width: 1440px;
